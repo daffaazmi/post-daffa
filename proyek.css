@@ -1,0 +1,290 @@
+.{
+  margin: 0px;
+  padding: 0px;
+  font-family: serif;
+}
+
+.header {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 36px;
+  color: white;
+  float: left;
+  padding: 25px 20px;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  float: right;
+  margin-top: 40px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+
+ul li a:hover{
+  background-color: red;
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.main {
+  background-color: black;
+  height: 1500px;
+  padding: 20px 25px;
+}
+
+.copy-container h1 {
+  padding-left: 20px;
+  color: white;
+}
+
+.content {
+  font-size: 60px;
+  float: left;
+  padding-left: 20px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+.copy-container h4 {
+  font-size: 90px;
+}
+
+.footer {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+  height: 120px;
+}
+
+.footer-logo {
+  font-size: 36px;
+  float: left;
+  color: white;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.footer-list {
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  float: right;
+  margin-bottom: 40px;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+
+@media (max-width: 720px) {
+  .header {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+    height: 90px;
+  } .header-logo {
+    font-size: 36px;
+    color: white;
+    float: left;
+    padding: 25px 20px;
+  }
+
+  ul {
+    font-size: 20px;
+    list-style-type: none;
+    float: right;
+    margin-top: 40px;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+  }
+
+  ul li a:hover{
+    background-color: red;
+  }
+
+  ul li.active a{
+    background-color: white;
+    color: black;
+  }
+
+  .main {
+    background-color: black;
+    height: 1500px;
+    padding: 20px 25px;
+  }
+
+  .copy-container h1 {
+    padding-left: 20px;
+    color: white;
+  }
+
+  .content {
+    font-size: 60px;
+    float: left;
+    padding-left: 20px;
+  }
+
+  p {
+    color: white;
+    font-size: 16px;
+  }
+
+  .copy-container h4 {
+    font-size: 90px;
+  }
+
+  .footer {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+    height: 120px;
+  }
+
+  .footer-logo {
+    font-size: 36px;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+
+  .footer-list {
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    float: right;
+    margin-bottom: 40px;
+  }
+
+  .footer-list li{
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+  .header {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+    height: 90px;
+  } .header-logo {
+    font-size: 36px;
+    color: white;
+    float: left;
+    padding: 25px 20px;
+  }
+
+  ul {
+    font-size: 20px;
+    list-style-type: none;
+    float: right;
+    margin-top: 40px;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+  }
+
+  ul li a:hover{
+    background-color: red;
+  }
+
+  ul li.active a{
+    background-color: white;
+    color: black;
+  }
+
+  .main {
+    background-color: black;
+    height: 1500px;
+    padding: 20px 25px;
+  }
+
+  .copy-container h1 {
+    padding-left: 20px;
+    color: white;
+  }
+
+  .content {
+    font-size: 60px;
+    float: left;
+    padding-left: 20px;
+  }
+
+  p {
+    color: white;
+    font-size: 16px;
+  }
+
+  .copy-container h4 {
+    font-size: 90px;
+  }
+
+  .footer {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/855/629/176/music-concerts-wallpaper-preview.jpg);
+    height: 120px;
+  }
+
+  .footer-logo {
+    font-size: 36px;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+
+  .footer-list {
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    float: right;
+    margin-bottom: 40px;
+  }
+
+  .footer-list li{
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+  }
+}
